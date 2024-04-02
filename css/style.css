@@ -138,13 +138,15 @@
 
 .section-guitar-covers {
   padding: 9.6rem 0;
+  background: linear-gradient(to right, #d1ced1, #c8d1d3, #d0b6b6);
 }
 
 .step-details {
   display: flex;
   align-items: center;
+  /* position: relative; */
   /* justify-content: space-between; */
-  gap: 9.6rem;
+  gap: 14.6rem;
   margin-bottom: 3.2rem;
 }
 
@@ -162,15 +164,47 @@
 
 .step-video {
   width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.heading-step-1 {
+  background: -webkit-linear-gradient(#030303, #d14403fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .step-video-2 {
   width: 100%;
 }
 
+/* .step-video-4 {
+  color: #91949bb9;
+} */
+
+.heading-step-2 {
+  /* color: #ab05b1cc; */
+  background: -webkit-linear-gradient(#0095af, #e220d8, #140442);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-step-4 {
+  background: -webkit-linear-gradient(#1a0c1b, #47646d, #630d0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading-step-5 {
+  background: -webkit-linear-gradient(#1a0c1b, #741818, #c40303);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .band-logo {
   height: 9.6rem;
   width: 9.6rem;
+  border-radius: 15px;
 }
 
 /* .section-guitar-covers .grid {

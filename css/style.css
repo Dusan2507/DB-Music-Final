@@ -149,11 +149,23 @@
 }
 
 .step-description {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #47646d;
+}
+
+.step-video-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .step-video {
   width: 70%;
+}
+
+.step-video-2 {
+  width: 100%;
 }
 
 .band-logo {

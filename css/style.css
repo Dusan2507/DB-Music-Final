@@ -133,6 +133,34 @@
 }
 
 /******************************/
+/* FEATURED IN SECTION */
+/******************************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+  background: linear-gradient(to right, #d1ced1, #c8d1d3, #d0b6b6);
+}
+
+.heading-featured-in {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #333;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos img {
+  height: 8rem;
+}
+
+/******************************/
 /* GUITAR COVERS SECTION */
 /******************************/
 
@@ -174,13 +202,27 @@
   -webkit-text-fill-color: transparent;
 }
 
-.step-video-2 {
-  width: 100%;
+.step-video-1 {
+  filter: drop-shadow(16px 16px 41px rgb(156, 77, 12));
 }
 
-/* .step-video-4 {
-  color: #91949bb9;
-} */
+.step-video-2 {
+  width: 100%;
+  filter: drop-shadow(16px 16px 41px rgb(54, 8, 60));
+}
+
+.step-video-3 {
+  /* filter: drop-shadow(16px 16px 41px rgb(174, 132, 26)); */
+  filter: drop-shadow(16px 16px 41px rgb(13, 61, 21));
+}
+
+.step-video-4 {
+  filter: grayscale(100%);
+}
+
+.step-video-5 {
+  filter: drop-shadow(16px 16px 41px rgb(60, 8, 8));
+}
 
 .heading-step-2 {
   /* color: #ab05b1cc; */
@@ -203,7 +245,6 @@
 
 .band-logo {
   height: 9.6rem;
-  width: 9.6rem;
   border-radius: 15px;
 }
 

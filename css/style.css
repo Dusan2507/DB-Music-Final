@@ -251,3 +251,36 @@
 /* .section-guitar-covers .grid {
   align-items: center;
 } */
+
+/******************************/
+/* EQUIPMENT SECTION */
+/******************************/
+
+.section-equipment {
+  padding: 9.6rem 0;
+  /* background: linear-gradient(to right, #d1ced1, #c8d1d3, #d0b6b6); */
+}
+
+.equipment {
+  transition: all 0.4s;
+}
+
+.equipment:hover {
+  transform: translateY(-1.2rem);
+}
+
+.equipment-title {
+  font-size: 2rem;
+  /* text-align: center; */
+  color: #333;
+  font-weight: 700;
+}
+
+.equipment-img {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+  /* filter: drop-shadow(16px 16px 41px rgb(156, 77, 12)); */
+}

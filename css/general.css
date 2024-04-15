@@ -177,3 +177,11 @@ body {
 .margin-right-small {
   margin-right: 1.6rem !important;
 }
+
+/******************************/
+/* HELPER/SETTINGS CLASSES */
+/******************************/
+
+.center-text {
+  text-align: center;
+}

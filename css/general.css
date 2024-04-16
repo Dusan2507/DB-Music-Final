@@ -134,10 +134,13 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited,
 .navbtn--signin:link,
 .navbtn--signin:visited,
+.signin:link,
+.signin:visited,
 .navbtn--outline:link,
 .navbtn--outline:visited,
 .navbtn--full:link,
@@ -150,6 +153,10 @@ body {
   border-radius: 15px;
 
   transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--1:link,
@@ -174,8 +181,23 @@ body {
   background-color: #a54141;
 }
 
+.btn--form {
+  background-color: #ffbe33;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #e6ab2e;
+}
+
 .margin-right-small {
   margin-right: 1.6rem !important;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #a54141;
 }
 
 /******************************/

@@ -39,7 +39,8 @@
 
 .signin:hover,
 .signin:active {
-  color: #ff3c00f5;
+  color: #ff7d4d;
+  /* color: #ffbe33; */
 }
 
 /* .navbtn--signin:link,
@@ -290,7 +291,8 @@
 /******************************/
 
 .section-gallery {
-  padding: 1.6rem 0;
+  padding: 2.4rem 0;
+  background: linear-gradient(to right, #d1ced1, #c8d1d3, #d0b6b6);
 }
 
 .gallery {
@@ -311,4 +313,79 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/******************************/
+/* CTA SECTION */
+/******************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+  background: linear-gradient(to right, #d1ced1, #c8d1d3, #d0b6b6);
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right, #800101, rgb(1, 1, 20));
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #e6cccc;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta .heading-secondary {
+  color: #e6cccc;
+  margin-bottom: 3.2rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 1, 1, 0.35),
+      rgba(1, 1, 20, 0.35)
+    ),
+    url("../img/gnr cta.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #777;
+  border: none;
+  background-color: #f2e6e6;
+  border-radius: 9px;
+}
+
+.cta-form input::placeholder {
+  color: #777;
 }

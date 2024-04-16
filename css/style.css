@@ -284,3 +284,31 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
   /* filter: drop-shadow(16px 16px 41px rgb(156, 77, 12)); */
 }
+
+/******************************/
+/* GALLERY SECTION */
+/******************************/
+
+.section-gallery {
+  padding: 1.6rem 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}

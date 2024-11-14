@@ -10,6 +10,7 @@
 
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -76,6 +77,25 @@
   background-color: #6c838a;
   box-shadow: 0 0 0 3px #edf2ff;
   /* transition: all 0.1s; */
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #edf2ff;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /******************************/

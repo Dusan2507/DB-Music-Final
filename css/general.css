@@ -52,6 +52,7 @@ Default: 9px, 11px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -59,6 +60,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #edf2ff;
+  overflow-x: hidden;
 }
 
 /******************************/
@@ -89,9 +91,9 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 /* .grid--center-v {
   align-items: center;

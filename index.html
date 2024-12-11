@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DB Music is a platform where you can watch guitar covers, tune your guitar, and learn music theory"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,14 +16,16 @@
     />
 
     <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <title>DB Music</title>
+    <title>DB Music &mdash; Discover your sound</title>
   </head>
   <body>
-    <header class="header nav-open">
+    <header class="header">
       <a href="#">
         <img class="logo" src="img/DB Music2.png" alt="DB Music" />
       </a>
@@ -27,15 +33,22 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link signin" href="#">Sign Up - Join my band</a>
+            <a class="main-nav-link signin" href="#cta"
+              >Sign Up - Join my band</a
+            >
           </li>
           <li>
             <!-- <a class="main-nav-link navbtn--signin" href="#">Section 1</a> -->
           </li>
           <li>
-            <a class="main-nav-link navbtn--outline" href="#">Section 2</a>
+            <a class="main-nav-link navbtn--outline" href="#">Music Theory</a>
           </li>
-          <li><a class="main-nav-link navbtn--full" href="#">Section 3</a></li>
+          <li>
+            <a class="main-nav-link navbtn--outline" href="#">Metronome</a>
+          </li>
+          <li>
+            <a class="main-nav-link navbtn--full" href="#">Guitar Tuner</a>
+          </li>
           <!-- <li><a class="main-nav-link" href="#">Section 5</a></li> -->
         </ul>
       </nav>
@@ -63,8 +76,8 @@
               riffs that you may like and beautiful melodic guitar solos.
             </p>
 
-            <a href="#" class="btn btn--1 margin-right-small">Videos</a>
-            <a href="#" class="btn btn--2">Gallery</a>
+            <a href="#covers" class="btn btn--1 margin-right-small">Videos</a>
+            <a href="#gallery" class="btn btn--2">Gallery</a>
             <div class="host">
               <div class="host-img">
                 <img src="img/db.jpg" alt="Host photo" />
@@ -105,7 +118,7 @@
         </div>
       </section>
 
-      <section class="section-guitar-covers">
+      <section class="section-guitar-covers" id="covers">
         <div class="container">
           <span class="subheading">Videos</span>
           <h2 class="heading-secondary">Guitar Covers</h2>
@@ -312,7 +325,7 @@
           </div>
         </div>
       </section>
-      <section class="section-gallery">
+      <section class="section-gallery" id="gallery">
         <div class="container">
           <span class="subheading">Gallery</span>
           <h2 class="heading-secondary">
@@ -446,7 +459,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -524,7 +537,9 @@
               ></a>
             </li>
           </ul>
-          <p class="copyright">Copyright &copy; 2024 by DB Music</p>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by DB Music
+          </p>
         </div>
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
@@ -572,5 +587,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></scrip>
+
+    <script defer src="js/script.js"></script>
   </body>
 </html>
